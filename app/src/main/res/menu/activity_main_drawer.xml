@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_currrency"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="@string/currrency" />
+        <item
+            android:id="@+id/nav_Distance"
+            android:icon="@drawable/ic_length24"
+            android:title="@string/Distance" />
+        <item
+            android:id="@+id/nav_Mass"
+            android:icon="@drawable/ic_baseline_anchor_24"
+            android:title="@string/Mass" />
+        <item
+            android:id="@+id/Temp"
+            android:icon="@drawable/ic_baseline_ac_unit_24"
+            android:title="@string/Temp" />
+        <item
+            android:id="@+id/nav_Energy"
+            android:icon="@drawable/ic_baseline_local_fire_department_24"
+            android:title="@string/Energy" />
+        <item
+            android:id="@+id/nav_Time"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:title="@string/Time" />
+        <item
+            android:id="@+id/nav_Data"
+            android:icon="@drawable/ic_baseline_storage_24"
+            android:title="@string/Data" />
+        <item
+            android:id="@+id/nav_Press"
+            android:icon="@drawable/ic_baseline_local_pressure_24"
+            android:title="@string/Press" />
+        <item
+            android:id="@+id/nav_Power"
+            android:icon="@drawable/ic_baseline_power_24"
+            android:title="@string/Power" />
+        <item
+            android:id="@+id/nav_Angel"
+            android:icon="@drawable/ic_baseline_architecture_24"
+            android:title="@string/Angel" />
+        <item
+            android:id="@+id/nav_Area"
+            android:icon="@drawable/ic_baseline_square_foot_24"
+            android:title="@string/Area" />
+        <item
+            android:id="@+id/nav_Number"
+            android:icon="@drawable/ic_baseline_filter_1_24"
+            android:title="@string/Number" />
+        <item
+            android:id="@+id/nav_speed"
+            android:icon="@drawable/ic_baseline_speed_24"
+            android:title="@string/speed" />
+    </group>
+</menu>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Converter</string>
+    <string name="nav_header_subtitle">Made By Xface</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="currrency">Currency</string>
+    <string name="Distance">Length</string>
+    <string name="Mass">Weight</string>
+    <string name="Temp">Temperature</string>
+    <string name="Energy">Energy</string>
+    <string name="speed">Speed</string>
+    <string name="Time">Time</string>
+    <string name="Data">Data</string>
+    <string name="Press">Pressure</string>
+    <string name="Power">Power</string>
+    <string name="Angel">Angle</string>
+    <string name="Area">Area</string>
+    <string name="Number">Number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="convert">Convert</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="to">To</string>
+
+
+    <string-array name="GlobCurr">
+        <item>USD-US Doller</item>
+        <item>EUR-Euro</item>
+        <item>GBP-British Pound</item>
+        <item>INR-Indian Rupee</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+        <item>USD</item>
+
+    </string-array>
+</resources>

@@ -33,7 +33,6 @@
 
     <string-array name="GlobCurr">
         <item>USD-US Doller</item>
-        <item>EUR-Euro</item>
         <item>GBP-British Pound</item>
         <item>INR-Indian Rupee</item>
         <item>AED-UAE Dirham</item>
@@ -83,7 +82,6 @@
         <item>FJD-Fidschi Dollar</item>
         <item>FKP-Falklands Pound</item>
         <item>FOK-Faroese Krona</item>
-        <item>GBP-Sterling Pound</item>
         <item>GEL-Georgian Lari</item>
         <item>GGP-Guernsey Pound</item>
         <item>GHS-Ghana Cedi</item>
@@ -151,6 +149,48 @@
         <item>PYG-Guarani</item>
         <item>QAR-Qatari Rial</item>
         <item>RON-Leu</item>
-
+        <item>RSD-Serbian Dinar</item>
+        <item>RUB-Russian Ruble</item>
+        <item>RWF-Rwandan Franc</item>
+        <item>SAR-Saudi Rial</item>
+        <item>SBD-Salomon Dollar</item>
+        <item>SCR-Seychelles Rupee</item>
+        <item>SDG-Sudanese Pound</item>
+        <item>SEK-Swedish krone</item>
+        <item>SGD-Singapore Dollar</item>
+        <item>SHP-ST.-Helena Pound</item>
+        <item>SLL-Leone</item>
+        <item>SOS-Somalian Shilling</item>
+        <item>SRD-Surinam Dollar</item>
+        <item>SSP-South Sudanese Pound</item>
+        <item>STD-Dobra</item>
+        <item>SYP-Syrian Pound</item>
+        <item>SZL-Swazi Pound</item>
+        <item>THB-Thai Baht</item>
+        <item>TJS-Somoni</item>
+        <item>TMT-Manat</item>
+        <item>TND-Tunesian Dinar</item>
+        <item>TOP-Pa'anga</item>
+        <item>TRY-Turkish Lira</item>
+        <item>TTD-Trinidad and Tobago Dollar</item>
+        <item>TVD-Tuvaluan Dollar</item>
+        <item>TWD-New Taiwan Dollar</item>
+        <item>TZS-Tansanian Shilling</item>
+        <item>UAH-Hrywnja</item>
+        <item>UGX-Uganda Schilling</item>
+        <item>UYU-Uruguay Peso</item>
+        <item>UZS-Uzbekistan Sum</item>
+        <item>VEF-Bolívar Fuerte</item>
+        <item>VND-Dong</item>
+        <item>VUV-Vatu</item>
+        <item>WST-Tala</item>
+        <item>XAF-Central African Franc</item>
+        <item>XCD-Est Caribbean Dollar</item>
+        <item>XOF-West African Franc</item>
+        <item>XPF-Pacific Franc</item>
+        <item>YER-Jemen Rial</item>
+        <item>ZAR-South African Rand</item>
+        <item>ZMW-Zambian Kwacha</item>
+        <item>ZWL-Zimbabwe Dollar</item>
     </string-array>
 </resources>

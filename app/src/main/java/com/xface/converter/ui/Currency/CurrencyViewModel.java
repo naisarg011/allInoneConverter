@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 public class CurrencyViewModel extends ViewModel {
-    private MutableLiveData<String> mText;
+    private final MutableLiveData<String> mText;
 
     public CurrencyViewModel() {
         mText = new MutableLiveData<>();

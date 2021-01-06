@@ -3,6 +3,7 @@ package com.xface.converter;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -19,6 +20,7 @@ import com.google.android.material.snackbar.Snackbar;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
+    Spinner SP1,Sp2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

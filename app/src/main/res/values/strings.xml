@@ -26,6 +26,7 @@
     <string name="convert" translatable="false">Convert</string>
     <string name="enter_amount" translatable="false">Enter Amount</string>
     <string name="to" translatable="false">To</string>
+    <string name="enter_value">Enter Value</string>
 
 
     <string-array name="GlobCurr">

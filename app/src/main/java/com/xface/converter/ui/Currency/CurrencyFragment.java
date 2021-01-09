@@ -23,20 +23,20 @@ import static com.xface.converter.R.id.text_Curr;
 
 public class CurrencyFragment extends Fragment {
     private Spinner sp1,sp2;
-    private Button conv;
+    Button conv;
     private TextView tv1, tv2;
     Number mum1;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        com.xface.converter.ui.Currency.CurrencyViewModel currencyViewModel = new ViewModelProvider(this).get(CurrencyViewModel.class);
+        CurrencyViewModel currencyViewModel = new ViewModelProvider(this).get(CurrencyViewModel.class);
         View cle = inflater.inflate(R.layout.fragment_currency2, container, false);
         final TextView textView = cle.findViewById(text_Curr);
-        String [] values ={};
+        String[] values = {};
         sp1 = (Spinner) cle.findViewById(money1);
         sp2 = (Spinner) cle.findViewById(money2);
-        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(getContext(),R.array.GlobCurr,android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(getContext(), R.array.GlobCurr, android.R.layout.simple_spinner_item);
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
         sp1.setAdapter(spinnerAdapter);
         sp2.setAdapter(spinnerAdapter);
@@ -47,6 +47,14 @@ public class CurrencyFragment extends Fragment {
             }
         });
         return cle;
+
+//        conv.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//            }
+//        });
+
     }
 }
 

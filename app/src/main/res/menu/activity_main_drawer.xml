@@ -4,18 +4,7 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+
         <item
             android:id="@+id/nav_currrency"
             android:icon="@drawable/ic_baseline_attach_money_24"
@@ -29,7 +18,7 @@
             android:icon="@drawable/ic_baseline_anchor_24"
             android:title="@string/Mass" />
         <item
-            android:id="@+id/Temp"
+            android:id="@+id/nav_Temp"
             android:icon="@drawable/ic_baseline_ac_unit_24"
             android:title="@string/Temp" />
         <item
@@ -65,7 +54,7 @@
             android:icon="@drawable/ic_baseline_filter_1_24"
             android:title="@string/Number" />
         <item
-            android:id="@+id/nav_speed"
+            android:id="@+id/nav_Speed"
             android:icon="@drawable/ic_baseline_speed_24"
             android:title="@string/speed" />
     </group>

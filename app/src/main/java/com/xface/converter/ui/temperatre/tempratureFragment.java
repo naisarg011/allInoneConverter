@@ -8,29 +8,22 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
 import com.xface.converter.R;
+import com.xface.converter.ui.power.PowerViewModel;
 
 public class tempratureFragment extends Fragment {
 
-    private TempratureViewModel mViewModel;
+    private PowerViewModel mViewModel;
+
 
     public static tempratureFragment newInstance() {
-        return new tempratureFragment();
+       return new tempratureFragment();
     }
-
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.temprature_fragment, container, false);
-    }
-
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(TempratureViewModel.class);
-        // TODO: Use the ViewModel
     }
 
 }

@@ -3,90 +3,73 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_currrency">
 
-    <fragment
-        android:id="@+id/nav_home"
-        android:name="com.xface.converter.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.xface.converter.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.xface.converter.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/nav_currrency"
+
         android:name="com.xface.converter.ui.Currency.CurrencyFragment"
         android:label="@string/currrency"
         tools:layout="@layout/fragment_currency2"/>
 
     <fragment
-        android:id="@+id/nav_length"
+        android:id="@+id/nav_Distance"
         android:name="com.xface.converter.ui.Length.lengthFragment"
         android:label="@string/Distance"
         tools:layout="@layout/length_fragment"/>
     <fragment
-        android:id="@+id/nav_angel"
+        android:id="@+id/nav_Angel"
         android:name="com.xface.converter.ui.angle.angleFragment"
         android:label="@string/Angel"
         tools:layout="@layout/angle_fragment"/>
     <fragment
-        android:id="@+id/nav_area"
+        android:id="@+id/nav_Area"
         android:name="com.xface.converter.ui.area.areaFragment"
         android:label="@string/Area"
         tools:layout="@layout/area_fragment"/>
     <fragment
-        android:id="@+id/nav_data"
+        android:id="@+id/nav_Data"
         android:name="com.xface.converter.ui.data.dataFragment"
         android:label="@string/Data"
         tools:layout="@layout/data_fragment"/>
     <fragment
-        android:id="@+id/nav_energy"
+        android:id="@+id/nav_Energy"
         android:name="com.xface.converter.ui.energy.energyFragment"
         android:label="@string/Energy"
         tools:layout="@layout/energy_fragment"/>
     <fragment
-        android:id="@+id/nav_number"
+        android:id="@+id/nav_Number"
         android:name="com.xface.converter.ui.number.numberFragment"
         android:label="@string/Number"
         tools:layout="@layout/number_fragment"/>
     <fragment
-        android:id="@+id/nav_power"
+        android:id="@+id/nav_Power"
         android:name="com.xface.converter.ui.power.powerFragment"
         android:label="@string/Power"
         tools:layout="@layout/power_fragment"/>
     <fragment
-        android:id="@+id/nav_pressuer"
+        android:id="@+id/nav_Press"
         android:name="com.xface.converter.ui.pressure.pressureFragment"
         android:label="@string/Press"
         tools:layout="@layout/pressure_fragment"/>
     <fragment
-        android:id="@+id/nav_speed"
-        android:name="com.xface.converter.ui.speed.speedFragment"
-        android:label="@string/speed"
-        tools:layout="@layout/speed_fragment"/>
-    <fragment
-        android:id="@+id/nav_temperatre"
+        android:id="@+id/nav_Temp"
         android:name="com.xface.converter.ui.temperatre.tempratureFragment"
         android:label="@string/Temp"
         tools:layout="@layout/temprature_fragment"/>
     <fragment
-        android:id="@+id/nav_time"
+        android:id="@+id/nav_Time"
         android:name="com.xface.converter.ui.time.timeFragment"
         android:label="@string/Time"
         tools:layout="@layout/time_fragment"/>
     <fragment
-        android:id="@+id/nav_weight"
+        android:id="@+id/nav_Mass"
         android:name="com.xface.converter.ui.weight.weightFragment"
         android:label="@string/Mass"
         tools:layout="@layout/weight_fragment"/>
-
+    <fragment
+        android:id="@+id/nav_Speed"
+        android:name="com.xface.converter.ui.speed.speedFragment"
+        android:label="@string/speed"
+        tools:layout="@layout/speed_fragment"/>
 </navigation>

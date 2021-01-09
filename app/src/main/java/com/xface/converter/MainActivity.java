@@ -40,10 +40,9 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,R.id.nav_currrency,R.id.nav_temperatre,
-                R.id.nav_angel,R.id.nav_area,R.id.nav_data,R.id.nav_energy,R.id.nav_gallery,R.id.nav_length,
-                R.id.nav_number,R.id.nav_power,R.id.nav_pressuer,R.id.nav_speed,R.id.nav_time,R.id.nav_weight)
+        mAppBarConfiguration = new AppBarConfiguration.Builder(R.id.nav_currrency,R.id.nav_Distance,
+                R.id.nav_Mass,R.id.nav_Temp,R.id.nav_Energy,R.id.nav_Time,R.id.nav_Data,R.id.nav_Press,
+                R.id.nav_Power,R.id.nav_Angel,R.id.nav_Area,R.id.nav_Speed,R.id.nav_Number)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);

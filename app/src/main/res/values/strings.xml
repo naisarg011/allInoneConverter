@@ -7,10 +7,7 @@
     <string name="nav_header_desc" translatable="false">Navigation header</string>
     <string name="action_settings" translatable="false">Settings</string>
 
-    <string name="menu_home" translatable="false">Home</string>
-    <string name="menu_gallery" translatable="false">Gallery</string>
-    <string name="menu_slideshow" translatable="false">Slideshow</string>
-    <string name="currrency" translatable="false">Currency</string>
+        <string name="currrency" translatable="false">Currency</string>
     <string name="Distance" translatable="false">Length</string>
     <string name="Mass" translatable="false">Weight</string>
     <string name="Temp" translatable="false">Temperature</string>

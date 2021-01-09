@@ -23,23 +23,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.046" />
 
-    <EditText
-        android:id="@+id/FCurr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/enter_amount"
-        android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.172" />
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Curbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/convert"
@@ -62,38 +47,56 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FCurr"
-        app:layout_constraintVertical_bias="0.225" />
+        app:layout_constraintTop_toTopOf="@+id/text_Curr"
+        app:layout_constraintVertical_bias="0.397" />
 
     <TextView
         android:id="@+id/rcurr"
         android:layout_width="204dp"
         android:layout_height="38dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/Curbutton"
         app:layout_constraintVertical_bias="0.26" />
 
     <Spinner
         android:id="@+id/money1"
         android:layout_width="216dp"
         android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toTopOf="@+id/TvTo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FCurr"
-        app:layout_constraintVertical_bias="0.506" />
+        app:layout_constraintTop_toBottomOf="@+id/fcurr"
+        app:layout_constraintVertical_bias="0.807" />
 
     <Spinner
         android:id="@+id/money2"
         android:layout_width="216dp"
         android:layout_height="50dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/Curbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TvTo" />
+
+    <EditText
+        android:id="@+id/fcurr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_amount"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182"
+        android:autofillHints="" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

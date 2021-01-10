@@ -85,6 +85,7 @@
         android:id="@+id/rara"
         android:layout_width="204dp"
         android:layout_height="38dp"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

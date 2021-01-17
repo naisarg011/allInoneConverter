@@ -192,4 +192,124 @@
         <item>ZMW-Zambian Kwacha</item>
         <item>ZWL-Zimbabwe Dollar</item>
     </string-array>
+
+    <string-array name="allLength">
+        <item>Millimeters</item>
+        <item>Centimeters</item>
+        <item>Meters</item>
+        <item>Kilometers</item>
+        <item>Inches</item>
+        <item>Feet</item>
+        <item>Yards</item>
+        <item>Miles</item>
+    </string-array>
+
+    <string-array name="allArea">
+        <item>Square millimeters</item>
+        <item>Square centimeters</item>
+        <item>Square meters</item>
+        <item>Square kilometers</item>
+        <item>Square inches</item>
+        <item>Square feet</item>
+        <item>Square yards</item>
+        <item>Square miles</item>
+        <item>Hectares</item>
+        <item>Acres</item>
+    </string-array>
+
+    <string-array name="allData">
+        <item>Bits</item>
+        <item>Bytes</item>
+        <item>Kilobytes</item>
+        <item>Kilobits</item>
+        <item>Kilobytes</item>
+        <item>Megabits</item>
+        <item>Megabytes</item>
+        <item>Gigabits</item>
+        <item>Gigabytes</item>
+        <item>Terabits</item>
+        <item>Terabytes</item>
+        <item>Petabits</item>
+        <item>Petabytes</item>
+        <item>Exabites</item>
+        <item>Exabytes</item>
+        <item>Zetabits</item>
+        <item>Zetabytes</item>
+        <item>Yottabits</item>
+        <item>Yottabytes</item>
+    </string-array>
+
+    <string-array name="allEnergy">
+        <item>Electron volts</item>
+        <item>Joules</item>
+        <item>Kilojoules</item>
+        <item>Calories</item>
+    </string-array>
+
+    <string-array name="allangle">
+        <item>Degrees</item>
+        <item>Radians</item>
+        <item>Gradians</item>
+    </string-array>
+
+    <string-array name="allNumber">
+        <item>Binary</item>
+        <item>HexaDecimal</item>
+        <item>Decimal</item>
+        <item>Octal</item>
+    </string-array>
+
+
+    <string-array name="allPower">
+        <item>Watts</item>
+        <item>Kilowatts</item>
+        <item>Horsepower</item>
+    </string-array>
+
+    <string-array name="allPress">
+        <item>Bars</item>
+        <item>Pascals</item>
+        <item>Kilopascals</item>
+        <item>Atmospheres</item>
+        <item>Millimeters of mercury</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="allSpeed">
+        <item>Centimeters per second</item>
+        <item>Meters per second</item>
+        <item>Kilometers per hour</item>
+        <item>Feet per second</item>
+        <item>Miles per hour</item>
+        <item></item>
+    </string-array>
+    
+    <string-array name="allTemp">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+
+    <string-array name="allTime">
+        <item>Microsecond</item>
+        <item>Millisecond</item>
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Weeks</item>
+        <item>Years</item>
+    </string-array>
+
+    <string-array name="allWeight">
+        <item>Milligrams</item>
+        <item>Centigrams</item>
+        <item>Decigrams</item>
+        <item>Grams</item>
+        <item>Kilogram</item>
+        <item>Metric tonnes</item>
+        <item>Pounds</item>
+        <item>Stones</item>
+    </string-array>
 </resources>

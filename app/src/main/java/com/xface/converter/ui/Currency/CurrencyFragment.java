@@ -48,13 +48,6 @@ public class CurrencyFragment extends Fragment {
         });
         return cle;
 
-//        conv.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//            }
-//        });
-
     }
 }
 

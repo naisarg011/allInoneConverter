@@ -272,7 +272,7 @@
         <item>Kilopascals</item>
         <item>Atmospheres</item>
         <item>Millimeters of mercury</item>
-        <item></item>
+
     </string-array>
 
     <string-array name="allSpeed">
@@ -281,7 +281,7 @@
         <item>Kilometers per hour</item>
         <item>Feet per second</item>
         <item>Miles per hour</item>
-        <item></item>
+
     </string-array>
     
     <string-array name="allTemp">

@@ -4,6 +4,10 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,8 +16,13 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.xface.converter.R;
 
-public class pressureFragment extends Fragment {
+import static com.xface.converter.R.id.pressure1;
+import static com.xface.converter.R.id.pressure2;
 
+public class pressureFragment extends Fragment {
+    private Spinner spr1,spr2;
+    Button conv;
+    TextView tv1, tv2;
     private PressureViewModel mViewModel;
 
     public static pressureFragment newInstance() {
@@ -23,7 +32,15 @@ public class pressureFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.pressure_fragment, container, false);
+        PressureViewModel pressureViewModel = new ViewModelProvider(this).get(PressureViewModel.class);
+        View cle8 = inflater.inflate(R.layout.pressure_fragment, container, false);
+        spr1 = cle8.findViewById(pressure1);
+        spr2 = cle8.findViewById(pressure2);
+        ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(getContext(), R.array.allPress, android.R.layout.simple_spinner_item);
+        spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
+        spr1.setAdapter(spinnerAdapter);
+        spr2.setAdapter(spinnerAdapter);
+        return cle8;
     }
 
     @Override
